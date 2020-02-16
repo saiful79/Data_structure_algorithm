@@ -13,7 +13,7 @@ def binarySearch(arr, start, end, x):
 print("Please Enter number of input : \n")
 number_of_input = int(input())
 print("Please search list: \n")
-arr = [input() for _ in range(number_of_input)]
+arr = [int(input()) for _ in range(number_of_input)]
 print("Please search value: \n")
 x = int(input())
 result = binarySearch(arr, 0, len(arr)-1, x) 
